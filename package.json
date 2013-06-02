@@ -1,0 +1,23 @@
+{
+  "name": "node-base-project",
+  "version": "0.0.0",
+  "description": "Node base project",
+  "main": "web.js",
+  "dependencies": {
+    "express": "~3.2.5",
+    "jade": "~0.31.1",
+    "mongoose": "~3.6.11",
+    "node-sass": "~0.5.1",
+    "passport-local": "~0.1.6",
+    "redis": "~0.8.3",
+    "socket.io": "~0.9.14",
+    "toobusy": "~0.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Grayfox",
+  "license": "BSD"
+}
