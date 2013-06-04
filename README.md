@@ -40,6 +40,10 @@ Node.js Application for ZRC
 		- POST __/API/user__
 			- def: Create a user on the database 
 			- params: username, password
+			
+- ### MAILER
+	- GET __/mail__
+		- def: Send a mail to configured e-mail actually.
 		
 
 		
