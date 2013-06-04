@@ -16,6 +16,10 @@ app.get('/', function(request, response) {
   response.render('index', { title : 'Home' });
 });
 
+app.get('/mail', function(request, response){
+	require('./api/mailer/mailer')();
+	response.send(200);
+})
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on port " + port);
