@@ -1,23 +1,35 @@
 {
-  "name": "node-base-project",
-  "version": "0.0.0",
-  "description": "Node base project",
+  "name": "zrc-node",
+  "version": "0.1.0",
+  "description": "ZRC web API",
   "main": "web.js",
   "dependencies": {
+    "bcrypt": "~0.7.5",
+    "connect": "~2.7.11",
     "express": "~3.2.5",
+    "express.io": "~1.1.11",
     "jade": "~0.31.1",
     "mongoose": "~3.6.11",
+    "nib": "~0.9.1",
     "node-sass": "~0.5.1",
+    "passport": "~0.1.17",
     "passport-local": "~0.1.6",
     "redis": "~0.8.3",
+    "request": "~2.21.0",
     "socket.io": "~0.9.14",
+    "stylus": "~0.32.1",
     "toobusy": "~0.2.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "Grayfox",
-  "license": "BSD"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aitoroses/zrc-node.git"
+  },
+  "author": "GrayFOX",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "5aba4de5ca5c7608c465f67319320b3b7e3ea322"
 }
