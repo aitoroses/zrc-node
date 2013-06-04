@@ -1,0 +1,9 @@
+extend layout
+block content
+	p RAP IS AWESOME FORM
+	div
+		form(action='/API/user', method='post')
+			fieldset
+				label(for='email') email
+					input(id='email',type='text',value='',placeholder='@',name='email')
+			input(type='submit',value='ENTRA YA OSTIA',data-transition='fade', data-theme='c')
